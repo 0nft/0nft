@@ -1,0 +1,95 @@
+body {
+    background-color: #000000;
+    font-family: "Audiowide", cursive;
+  }
+
+  .heading {
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-link {
+      color: rgb(255, 255, 255);
+      font-family: 'Courier New', Courier, monospace;
+      bottom: unset;
+      display: flex;
+      border-style:unset;
+      text-align: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    text-shadow: 3px 3px 0 red, 6px 6px 0 green, 9px 9px 0 blue;
+  }
+  
+  h2 {
+    font-family: helvetica;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 3px 3px 0 rgba(255, 0, 0, 0.233), 6px 6px 0 rgba(0, 128, 0, 0.178), 9px 9px 0 rgba(0, 0, 255, 0.089);
+  }
+  
+  main {
+    text-align: center;
+    color: white;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+  }
+  
+  #box2 {
+    font-family: Helvetica;
+    font-size: 25px;
+  }
+  
+  .NFTs {
+    width: 200px;
+    height: 200px;
+  }
+  
+  #NFTbox {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+  }
+  
+  figcaption {
+    font-style: italic;
+    text-align: center;
+  }
+  
+  
+   @media only screen and (max-width: 767px ) {
+      h2 {
+        font-size: 30px;
+      }
+     
+     #NFTbox {
+       width: 30%;
+     }
+     
+      }
+
+      .social-text {
+          text-align: center;
+          font-size: 2em;
+      }
+      
+      a {
+        color:rgb(255, 255, 255);
+      }
+
